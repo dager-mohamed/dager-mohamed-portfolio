@@ -1,0 +1,109 @@
+:root{
+    --btn-color: #544af4;
+    --light-btn-color: #2618ec;
+}
+.main{
+    margin: 0 auto;
+    max-width: 1310px;
+}
+.sec-1-landing{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+}
+
+.sec-1-landing h1 span{
+    color: var(--light-btn-color);
+    
+}
+.sec-1-landing h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    background-image: linear-gradient(297deg, rgb(0, 43, 233) 0%, rgb(45, 107, 100) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.sec-1-landing h2{
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--btn-color);
+}
+
+.sec-1-landing h2 span{
+    color: black;
+}
+
+.btn-section-landing button{
+    cursor: pointer;
+    background-color: var(--btn-color);
+    border: none;
+    padding: 8px 33px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.btn-section-landing button:hover{
+    background-color: var(--light-btn-color);
+}
+
+
+.container-landing{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.sec-2-landing img{
+    width: 400px;
+    
+    pointer-events: none;
+    user-select: none;
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+.next-page{
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.next-page i {
+    background-color: var(--light-btn-color);
+    border-radius: 50px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+@keyframes floating{
+    from{
+        transform: translate(0, 0px);
+    }
+    65%{
+        transform: translate(0, 10px);
+    }
+    to{
+        transform: translate(0, 0px);
+    }
+}
+@media screen and (max-width: 1216px){
+    .main{
+      max-width: 1152px;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .main{
+      max-width: 860px;
+    }
+  }

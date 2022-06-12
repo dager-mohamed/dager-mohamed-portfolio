@@ -1,0 +1,127 @@
+:root{
+    --btn-color: #544af4;
+    --light-btn-color: #2618ec;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1310px;
+    
+    
+}
+.nav{
+    padding-top: 2.2rem;
+    padding-bottom: 7em;
+    box-shadow: auto;
+    z-index: auto;
+}
+
+.logo img{
+    width: 30px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(12, 36, 51);
+}
+
+.sec-section .div-section ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    
+}
+
+.sec-section .div-section ul li{
+    padding-left: 30px;
+}
+.sec-section .div-section ul a{
+    cursor: pointer;
+    font-weight: 600;
+}
+.sec-section .div-section ul .btn-about{
+    cursor: pointer;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+    padding: 8px 23px;
+    border-radius: 50px;
+    border: solid 2px transparent;
+    background-color: transparent;
+}
+.sec-section .div-section ul .btn-about:hover{
+    border: 2px solid black;
+}
+.sec-section .div-section ul li .btn-contact{
+    cursor: pointer;
+    background-color: var(--btn-color);
+    
+    padding: 8px 23px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    color: white;
+}
+.sec-section .div-section ul li .btn-contact:hover{
+    background-color: var(--light-btn-color);
+}
+
+.sidebar-bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition:  all 0.3s ease;
+}
+.sidebar-bottom ul{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-btn-color);
+    flex-direction: row;
+    width: 100%;
+    border-radius: 50px;
+}
+.sidebar-bottom ul li{
+    padding: 0 35px;
+}
+.sidebar-bottom ul li i{
+    font-size: 30px;
+    color: white;
+    
+    padding: 9px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#active-i{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 1216px){
+    .nav-container{
+      max-width: 1152px;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .nav-container{
+      max-width: 860px;
+    }
+  }

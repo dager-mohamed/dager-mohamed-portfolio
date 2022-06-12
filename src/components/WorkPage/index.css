@@ -1,0 +1,27 @@
+:root{
+    --btn-color: #544af4;
+    --light-btn-color: #2618ec;
+}
+.work{
+    margin: 0 auto;
+    max-width: 1310px;
+}
+.next-page-about{
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.next-page-about i {
+    background-color: var(--light-btn-color);
+    border-radius: 50px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+.work h1{
+    color: var(--btn-color);
+    font-size: 50px;
+}
