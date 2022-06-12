@@ -5,6 +5,9 @@
 .about{
     margin: 0 auto;
     max-width: 1310px;
+    padding-left: 70px;
+    height: 100vh;
+    padding-right: 70px;
 }
 .next-page-about{
     position: fixed;

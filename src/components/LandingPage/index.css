@@ -5,6 +5,9 @@
 .main{
     margin: 0 auto;
     max-width: 1310px;
+    padding-left: 70px;
+    padding-right: 70px;
+
 }
 .sec-1-landing{
     display: flex;

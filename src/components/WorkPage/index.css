@@ -5,6 +5,9 @@
 .work{
     margin: 0 auto;
     max-width: 1310px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 150vh;
 }
 .next-page-about{
     position: fixed;
@@ -24,4 +27,64 @@
 .work h1{
     color: var(--btn-color);
     font-size: 50px;
+}
+.work-box{
+    position: relative;
+    display: grid;
+    width: 100%;
+    gap: -100px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+}
+.box-flex figure{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    border-radius: 12px;
+    transform: scale(1.12);
+   
+}
+.box-flex figure img{
+    width: 300px;
+    height: 100%;
+    
+    transform: scale(1);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    
+}
+.box-flex figure{
+    overflow: hidden;
+    
+    
+}
+/* .box-flex figure figcaption{
+    display: none;
+} */
+.div-btn-work button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 8px 23px;
+    color: var(--light-btn-color);
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid #2618ec;
+}
+.div-btn-work button:hover{
+    background-color: var(--light-btn-color);
+    color: white;
+}
+.div-btn-work button i{
+    padding-right: 10px;
+}
+.div-btn-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }

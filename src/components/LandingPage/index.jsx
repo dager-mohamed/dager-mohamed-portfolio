@@ -15,6 +15,7 @@ export function Landing() {
     useEffect(()=>{
         
     },[])
+
   return (
     <div>
         <Navbar homeRef={homeRef}/>
@@ -25,14 +26,16 @@ export function Landing() {
                     <h1>Hello, I am <span>dagermohamed</span></h1>
                     <h2><span>I am a </span>Full-Stack web developer</h2>
                     <div className="btn-section-landing">
-                        <button onClick={() => Redirect('/contact')}>Contact</button>
-                        
+                        <button onClick={() => Redirect('/about')}>About</button>
                     </div>
                 </div>
                 <div className="sec-2-landing">
                 <img src={developerSVG}/>
                 </div>
             </div>
+        </div>
+        <div>
+            
         </div>
         <div className="next-page">
         <i onClick={() => Redirect('/about')} class='bx bx-down-arrow-alt' ></i>

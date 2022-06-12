@@ -5,6 +5,9 @@
 .contact{
     margin: 0 auto;
     max-width: 1310px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 150vh;
 }
 .next-page-about{
     position: fixed;
@@ -24,4 +27,107 @@
 .contact h1{
     color: var(--btn-color);
     font-size: 50px;
+}
+.input-username-password{
+    outline: none;
+    height: 30px;
+    
+    width: 400px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: solid 3px transparent;
+    transition: box-shadow 0.1s ease;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.input-username-password:focus{
+
+    box-shadow: #4639fa7a 0px 0px 0px 3px;
+    /* border: solid 3px #554af47a; */
+}
+.login-page{
+    display: flex;
+    flex-direction: column;
+    
+    height: 600px;
+    
+    width: 500px;
+}
+.login-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login-content{
+    display: flex;
+    flex-direction: column;
+}
+.login-content span{
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.login-content input{
+    
+}
+.login-content textarea{
+    height: 120px;
+    min-height: 120px;
+    resize: vertical;
+
+    font-size: 15px;
+    max-height: 200px;
+}
+.btn-send button{
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 2px #2618ec;
+    padding: 8px 33px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    color: var(--light-btn-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.btn-send button:hover{
+    background-color: var(--light-btn-color);
+    color: white;
+    font-weight: 500;
+}
+.btn-send button i{
+    display: none;
+    color: white;
+    transition: all 0.3s ease;
+    padding-right: 30px;
+    
+}
+.btn-send button:hover i{
+    display: inherit;
+    padding-right: 10px;
+}
+.success{
+    display: none;
+    
+    justify-content: center;
+    width: 100%;
+}
+.success2{
+    
+    background-color: rgb(72, 158, 72);
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.success p{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.on{
+    display: flex;
 }
