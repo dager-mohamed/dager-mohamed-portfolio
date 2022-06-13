@@ -33,38 +33,38 @@ export function Work() {
           </div>
           <div className="box-2 box-flex">
             <figure>
-          <img src={img2} / >
+          <img src={"https://i.imgur.com/2Lmw9uW.png"} / >
             </figure>
             </div>
 
             <div className="box-4 box-flex">
               <figure>
-            <img src={img4} / >
+            <img src={"https://i.imgur.com/7FvBYxH.png"} / >
               </figure>
             </div>
             <div className="box-5 box-flex">
               <figure>
-            <img src={img5} / >
+            <img src={"https://i.imgur.com/UBcG606.png"} / >
             </figure>
             </div>
             <div className="box-6 box-flex">
             <figure>
-            <img src={img6} / >
+            <img src={"https://i.imgur.com/eEI80JZ.png"} / >
             </figure>
             </div>
             <div className="box-7 box-flex">
               <figure>
-            <img src={img7} / >
+            <img src={"https://i.imgur.com/Z2m0AMa.png"} / >
               </figure>
             </div>
             <div className="box-8 box-flex">
               <figure>
-            <img src={img8} / >
+            <img src={"https://i.imgur.com/Olm75Um.png"} / >
               </figure>
             </div>
             <div className="box-9 box-flex">
               <figure>
-            <img src={img9} / >
+            <img src={"https://i.imgur.com/23Y02sr.png"} / >
               </figure>
             </div>
         </div>
